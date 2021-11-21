@@ -1,0 +1,21 @@
+.itemContainer{
+    display: flex;
+    background-color: #e6e6e6;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+    padding: 15px;
+    .quantityController{
+        display: flex;
+        h3{
+            margin: 0 10px;
+        }
+    }
+    img{
+        width: 100px;
+    }
+    button{
+        cursor: pointer;
+    }
+}
